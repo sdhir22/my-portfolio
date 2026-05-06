@@ -1,0 +1,25 @@
+---
+title: "Deadlands"
+publishedAt: "2024-12-01"
+summary: "A C++ zombie shooter built from scratch — smart AI enemies, a custom level editor, and dynamic shaders included."
+---
+
+## Overview
+
+Deadlands is a top-down zombie shooter game built in C++ using the SFML library. The project was designed around an Entity-Component-System (ECS) architecture, prioritizing modularity, performance, and scalable game object management from the ground up.
+
+## Key Features
+
+- **Entity-Component-System Architecture**: Structured the entire game around ECS for clean separation of concerns, making game objects modular and easy to extend.
+- **AI Enemy Behavior**: Implemented an AI system combining A* pathfinding and ray casting for intelligent enemy navigation and line-of-sight detection.
+- **Custom Level Editor**: Built an in-game level editor with a rich preloaded asset library and animation systems, with a graphical interface powered by ImGui for real-time entity customization.
+- **Progression & Save System**: Tracks completed levels and unlocks subsequent ones using file I/O with a custom save/load method that persists game state to `.txt` files.
+- **Dynamic Visual Effects**: Utilized GLSL shaders to implement a day-night cycle and animated flame effects, adding atmosphere to the game world.
+
+## Technologies Used
+
+- **C++**: Core game logic, ECS architecture, and AI systems.
+- **SFML**: 2D rendering, audio, and window management.
+- **ImGui**: In-game level editor UI.
+- **GLSL Shaders**: Dynamic visual effects including day-night cycle and flame animations.
+- **A\* Pathfinding**: Intelligent enemy navigation across the game map.
