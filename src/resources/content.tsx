@@ -47,18 +47,13 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building software that's clean, fast, and a pleasure to use</>,
+  headline: <>while(alive) {"{"}learn(); build();{"}"}</>,
   featured: {
     display: false,
     title: <></>,
     href: "/work",
   },
-  subline: (
-    <>
-      I'm Swayam, a software engineer who cares about getting the details right —
-      from system architecture to the last pixel of the UI.
-    </>
-  ),
+  subline: <>"Genius is one percent inspiration and ninety-nine percent perspiration." — Thomas Edison</>,
 };
 
 const about: About = {
