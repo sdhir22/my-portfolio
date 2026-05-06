@@ -53,7 +53,7 @@ const home: Home = {
     title: <></>,
     href: "/work",
   },
-  subline: <>"Genius is one percent inspiration and ninety-nine percent perspiration." — Thomas Edison</>,
+  subline: <>“Genius is one percent inspiration and ninety-nine percent perspiration.” — Thomas Edison</>,
 };
 
 const about: About = {
