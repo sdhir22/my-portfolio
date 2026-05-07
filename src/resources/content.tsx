@@ -87,9 +87,43 @@ const about: About = {
     ),
   },
   work: {
-    display: false, // Add your work experience here
+    display: true,
     title: "Work Experience",
-    experiences: [],
+    experiences: [
+      {
+        company: "TechNest Mentorship Program",
+        timeframe: "April 2026 – Present",
+        role: "Mentee – AI & Software Development Track",
+        achievements: [
+          <>Participating in a structured mentorship program focused on AI and software development, receiving guidance from industry professionals on technical skills and career development.</>,
+          <>Engaging in hands-on learning and collaborative projects aligned with current trends in artificial intelligence and software engineering.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Memorial University of Newfoundland – DIAG Labs",
+        timeframe: "June 2025 – December 2025",
+        role: "Full Stack Software Developer",
+        achievements: [
+          <>Contributed to medical image analysis software development across web design, database systems, and image labeling tools.</>,
+          <>Assisted in building and maintaining a web application using Python, JavaScript, and Ruby on Rails, following team best practices including code reviews and testing.</>,
+          <>Collaborated within a distributed team using Git, contributing to a production-quality software development workflow.</>,
+          <>Developed foundational knowledge of high-performance computing in the context of AI and machine learning research.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Memorial University of Newfoundland – DIAG Labs",
+        timeframe: "June 2025 – December 2025",
+        role: "Data Quality Assurance Analyst",
+        achievements: [
+          <>Conducted data profiling, cleansing, and quality control to ensure high standards of data integrity and accuracy.</>,
+          <>Examined medical images to identify anatomical inconsistencies and anomalies, correcting inaccurate entries to improve data quality for downstream applications.</>,
+          <>Produced statistics and reports to track data quality metrics and identify areas for improvement.</>,
+        ],
+        images: [],
+      },
+    ],
   },
   studies: {
     display: false, // Add your education here
@@ -239,7 +273,7 @@ const blog: Blog = {
 
 const work: Work = {
   path: "/work",
-  label: "Work",
+  label: "Projects",
   title: `Projects – ${person.name}`,
   description: `Software projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/work/projects
