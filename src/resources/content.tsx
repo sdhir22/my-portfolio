@@ -101,14 +101,31 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "TypeScript & JavaScript",
+        title: "Python",
         description: (
-          <>Comfortable building type-safe, scalable applications in both Node.js and the browser.</>
+          <>Used professionally at DIAG Labs to build and maintain a web application for medical image analysis, alongside data profiling and quality control workflows.</>
+        ),
+        tags: [
+          {
+            name: "Python",
+            icon: "python",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "JavaScript & TypeScript",
+        description: (
+          <>Used at DIAG Labs for full-stack web development and in NutriPlan for building a type-safe, server-rendered web application.</>
         ),
         tags: [
           {
             name: "JavaScript",
             icon: "javascript",
+          },
+          {
+            name: "TypeScript",
+            icon: "typescript",
           },
         ],
         images: [],
@@ -116,12 +133,93 @@ const about: About = {
       {
         title: "React & Next.js",
         description: (
-          <>Building performant, production-ready web apps with React, Next.js, and modern tooling.</>
+          <>Building NutriPlan with Next.js, deployed on Vercel — integrating the Spoonacular API and Vercel AI SDK to deliver personalized meal plans and recipes.</>
         ),
         tags: [
           {
             name: "Next.js",
             icon: "nextjs",
+          },
+          {
+            name: "Vercel",
+            icon: "vercel",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "Ruby on Rails",
+        description: (
+          <>Contributed to a production Rails web app at DIAG Labs, following team best practices including code reviews, testing, and Git-based collaboration.</>
+        ),
+        tags: [
+          {
+            name: "Ruby on Rails",
+            icon: "rubyonrails",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "C++",
+        description: (
+          <>Built Deadlands, a full game in C++ using SFML — implementing an ECS architecture, A* pathfinding AI, a custom level editor with ImGui, and GLSL shaders for dynamic visual effects.</>
+        ),
+        tags: [
+          {
+            name: "C++",
+            icon: "cplusplus",
+          },
+          {
+            name: "SFML",
+          },
+          {
+            name: "ImGui",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "Git",
+        description: (
+          <>Used professionally at DIAG Labs in a distributed team, contributing to a production codebase with shared Git workflows, code reviews, and collaborative development practices.</>
+        ),
+        tags: [
+          {
+            name: "Git",
+            icon: "git",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "AI-Assisted Development",
+        description: (
+          <>Used Cursor throughout NutriPlan to accelerate feature development and iterate on UI/UX design — integrating AI tooling as a core part of the development workflow rather than an afterthought.</>
+        ),
+        tags: [
+          {
+            name: "Cursor",
+          },
+          {
+            name: "Vercel AI SDK",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "Flutter & Firebase",
+        description: (
+          <>Built Maple Buy, a cross-platform mobile app in Flutter with Firebase for real-time data and auth, GoRouter for navigation, and a third-party API for grocery product data.</>
+        ),
+        tags: [
+          {
+            name: "Flutter",
+            icon: "flutter",
+          },
+          {
+            name: "Firebase",
+            icon: "firebase",
           },
         ],
         images: [],
