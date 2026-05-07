@@ -77,10 +77,12 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Swayam is a software engineer with a passion for building high-quality digital products.
-        He works across the full stack, bringing rigor and care to everything from backend services
-        to user-facing interfaces. He believes great software is fast, maintainable, and something
-        people actually enjoy using.
+        I'm a software engineer who loves building things that feel good to use. I'm still early in
+        my career but I care deeply about the craft — writing code that's clean, fast, and
+        maintainable. I'm always looking to grow, whether that's picking up a new part of the stack,
+        shipping something I'm proud of, or understanding the "why" behind good software design. My
+        goal is to keep building, keep learning, and eventually work on products that genuinely
+        matter to people.
       </>
     ),
   },
