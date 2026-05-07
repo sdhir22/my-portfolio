@@ -26,12 +26,24 @@ export async function GET(request: Request) {
     <div
       style={{
         display: "flex",
+        position: "relative",
         width: "100%",
         height: "100%",
         padding: "6rem",
         background: "#151515",
       }}
     >
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          right: 0,
+          height: "6px",
+          background: "#4FA900",
+          display: "flex",
+        }}
+      />
       <div
         style={{
           display: "flex",
